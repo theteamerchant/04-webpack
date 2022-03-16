@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "SuperFont";
+    src: url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+}
+
+.heading {
+    font-family: "Syne Mono";
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.webgl {
+    border: 1px dotted red;
+    border-radius: 14px;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
