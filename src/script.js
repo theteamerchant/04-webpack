@@ -66,7 +66,6 @@ const boxMaterial = new THREE.MeshBasicMaterial({
 
 
 // Object2
-<<<<<<< HEAD
 const geometry2 = new THREE.IcosahedronGeometry(24, 0);
 const material2 = new THREE.MeshBasicMaterial({
   color: "white",
@@ -88,15 +87,6 @@ for (let i = 0; i < vertices.length; i++) {
 }
 
 
-=======
-const geometry2 = new THREE.IcosahedronGeometry(24, 0)
-const material2 = new THREE.MeshBasicMaterial({ color: 'yellow', wireframe: true})
-const mesh2 = new THREE.Mesh(geometry2, material2)
-mesh2.position.y = 0
-mesh2.position.x = 0
-mesh2.position.z = 0
-scene.add(mesh2)
->>>>>>> master
 
 // Object3
 // const geometry3 = new THREE.IcosahedronGeometry(24, 0)
